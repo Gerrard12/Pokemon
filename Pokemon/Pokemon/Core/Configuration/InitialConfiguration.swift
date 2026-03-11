@@ -7,8 +7,9 @@
 
 import Foundation
 
+// Asiganamos el basdeURL segun el ambiente
 enum InitialConfiguration {
-    static var basURL: String {
+    static var baseURL: String {
         #if Release
         return ""
         #else

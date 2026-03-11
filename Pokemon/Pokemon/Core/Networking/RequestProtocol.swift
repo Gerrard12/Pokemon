@@ -16,5 +16,4 @@ protocol RequestProtocol {
     var query: [URLQueryItem]? { get }
     var body: Data? { get }
     var headers: [String: String]? { get }
-    var parameters: [String: Any]? { get }
 }
